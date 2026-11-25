@@ -1,0 +1,110 @@
+{
+	chapter: {
+		id: "1AC60211DE7427FC"
+		group: "8B4C3D2E5F6A7B8C"
+		icon: { id: "aether:angelic_stone" }
+		title: "&5&lO Despertar das Dimensões"
+		description: "O portal para o Crepúsculo se abre. Algo antigo desperta..."
+		start_quest: "3D4E23B1100491AB"
+	quest_group: "8B4C3D2E5F6A7B8C"
+		quests: [
+			{
+				id: "3D4E23B1100491AB"
+				title: "&e&lO Portal Selado"
+				description: "Encontre a Chave do Portal no Baú da Rainha Valquíria e abra o Portal para o Crepúsculo."
+				rewards: [
+					{ type: "item" item: { id: "aether:angelic_stone" count: 1 } }
+				]
+				tasks: [
+					{ type: "item" item: { id: "aether:angelic_stone" count: 1 } }
+				]
+			},
+			{
+				id: "5825892699A8DCB7"
+				title: "&e&lO Guardião das Sombras"
+				description: "Derrote o Guardião do Portal (Endermite) para liberar o caminho."
+				rewards: [
+					{ type: "item" item: { id: "minecraft:golden_apple" count: 3 } }
+				]
+				tasks: [
+					{ type: "kill" entity: "minecraft:endermite" value: 5 }
+				]
+			},
+			{
+				id: "0E2D458E676F3BA8"
+				title: "&e&lA Espada de Diamante Celestial"
+				description: "Derrote o Lorde das Sombras e pegue sua Espada de Diamante Celestial."
+				rewards: [
+					{ type: "item" item: { id: "minecraft:diamond_sword" count: 1 } },
+					{ type: "item" item: { id: "minecraft:diamond_helmet" count: 1 } },
+					{ type: "item" item: { id: "minecraft:diamond_chestplate" count: 1 } },
+					{ type: "item" item: { id: "minecraft:diamond_leggings" count: 1 } },
+					{ type: "item" item: { id: "minecraft:diamond_boots" count: 1 } }
+				]
+				tasks: [
+					{ type: "kill" entity: "aether:shadow_lord" value: 1 }
+				]
+			},
+			{
+				id: "5900ADCC247CD5F8"
+				title: "&e&lA Mensagem do Céu"
+				description: "Leia a Pedra Rúnica no centro do portal. Ela fala de um antigo mal que dorme."
+				rewards: [
+					{ type: "item" item: { id: "minecraft:book" count: 1 } }
+				]
+				tasks: [
+					{ type: "structure" structure: "aether:runic_stone" }
+				]
+			}
+		]
+			{
+				id: "3D4E23B1100491AB"
+				title: "&e&lO Portal Selado"
+				description: "Encontre a Chave do Portal no Baú da Rainha Valquíria e abra o Portal para o Crepúsculo."
+				rewards: [
+					{ type: "item" item: { id: "aether:angelic_stone" count: 1 } }
+				]
+				tasks: [
+					{ type: "item" item: { id: "aether:angelic_stone" count: 1 } }
+				]
+			}
+			{
+				id: "5825892699A8DCB7"
+				title: "&e&lO Guardião das Sombras"
+				description: "Derrote o Guardião do Portal (Endermite) para liberar o caminho."
+				rewards: [
+					{ type: "item" item: { id: "minecraft:golden_apple" count: 3 } }
+				]
+				tasks: [
+					{ type: "kill" entity: "minecraft:endermite" value: 5 }
+				]
+			}
+			{
+				id: "0E2D458E676F3BA8"
+				title: "&e&lA Espada de Diamante Celestial"
+				description: "Derrote o Lorde das Sombras e pegue sua Espada de Diamante Celestial."
+				rewards: [
+					{ type: "item" item: { id: "minecraft:diamond_sword" count: 1 } },
+					{ type: "item" item: { id: "minecraft:diamond_helmet" count: 1 } },
+					{ type: "item" item: { id: "minecraft:diamond_chestplate" count: 1 } },
+					{ type: "item" item: { id: "minecraft:diamond_leggings" count: 1 } },
+					{ type: "item" item: { id: "minecraft:diamond_boots" count: 1 } }
+				]
+				tasks: [
+					{ type: "kill" entity: "aether:shadow_lord" value: 1 }
+				]
+			}
+			{
+				id: "5900ADCC247CD5F8"
+				title: "&e&lA Mensagem do Céu"
+				description: "Leia a Pedra Rúnica no centro do portal. Ela fala de um antigo mal que dorme."
+				rewards: [
+					{ type: "item" item: { id: "minecraft:book" count: 1 } }
+				]
+				tasks: [
+					{ type: "structure" structure: "aether:runic_stone" }
+				]
+			}
+		]
+	}
+}

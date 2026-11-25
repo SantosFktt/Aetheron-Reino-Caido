@@ -1,0 +1,9 @@
+{
+	chapter_groups: [
+		{ id: "7A3B2C1D4E5F6A7B" title: "&6&lA Queda de Aetheron" icon: { id: "minecraft:golden_helmet" } }
+		{ id: "8B4C3D2E5F6A7B8C" title: "&5&lO Despertar das Dimensões" icon: { id: "aether:angelic_stone" } }
+		{ id: "9C5D4E3F6A7B8C9D" title: "&c&lSombras do Nether" icon: { id: "minecraft:blaze_rod" } }
+		{ id: "AD6E5F4A6B7C8D9E" title: "&9&lO Fim e Além" icon: { id: "minecraft:end_crystal" } }
+		{ id: "BE7F6A5B6C7D8E9F" title: "&2&lReconstrução e Legado" icon: { id: "minecraft:diamond" } }
+	]
+}

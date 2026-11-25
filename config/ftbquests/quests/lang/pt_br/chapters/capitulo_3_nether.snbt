@@ -1,0 +1,108 @@
+{
+	chapter: {
+		id: "3D4E23B1100491AB"
+		group: "9C5D4E3F6A7B8C9D"
+		icon: { id: "minecraft:blaze_rod" }
+		title: "&c&lSombras do Nether"
+		description: "O reino das chamas e sombras. Aqui é mais quente, mas mais perigoso."
+		start_quest: "6614EE2378B8AFB9"
+	quest_group: "9C5D4E3F6A7B8C9D"
+		quests: [
+			{
+				id: "6614EE2378B8AFB9"
+				title: "&e&lO Fogo Eterno"
+				description: "Encontre o Núcleo de Lava no Nether e coloque-o no Altar do Fogo Eterno."
+				rewards: [
+					{ type: "item" item: { id: "minecraft:lava_bucket" count: 1 } },
+					{ type: "item" item: { id: "minecraft:blaze_rod" count: 3 } }
+				]
+				tasks: [
+					{ type: "item" item: { id: "aether:eternal_fire_core" count: 1 } }
+				]
+			},
+			{
+				id: "2B51AC12041E3F89"
+				title: "&e&lO Senhor das Chamas"
+				description: "Derrote o Senhor das Chamas para liberar o portal para o End."
+				rewards: [
+					{ type: "item" item: { id: "aether:flaming_sword" count: 1 } },
+					{ type: "item" item: { id: "minecraft:blaze_rod" count: 5 } }
+				]
+				tasks: [
+					{ type: "kill" entity: "aether:flame_lord" value: 1 }
+				]
+			},
+			{
+				id: "0D2F07FC0F804223"
+				title: "&e&lA Chama do Dragão"
+				description: "Derrote o Dragão do Fogo e pegue sua Escama de Chamas."
+				rewards: [
+					{ type: "item" item: { id: "minecraft:dragon_scale" count: 1 } },
+					{ type: "item" item: { id: "minecraft:blaze_rod" count: 5 } }
+				]
+				tasks: [
+					{ type: "kill" entity: "minecraft:ender_dragon" value: 1 }
+				]
+			},
+			{
+				id: "5900ADCC247CD5F8"
+				title: "&e&lO Portal para o End"
+				description: "Abra o portal para o End usando a Chave do End."
+				rewards: [
+					{ type: "item" item: { id: "minecraft:end_crystal" count: 1 } }
+				]
+				tasks: [
+					{ type: "item" item: { id: "aether:end_key" count: 1 } }
+				]
+			}
+		]
+			{
+				id: "6614EE2378B8AFB9"
+				title: "&e&lO Fogo Eterno"
+				description: "Encontre o Núcleo de Lava no Nether e coloque-o no Altar do Fogo Eterno."
+				rewards: [
+					{ type: "item" item: { id: "minecraft:lava_bucket" count: 1 } },
+					{ type: "item" item: { id: "minecraft:blaze_rod" count: 3 } }
+				]
+				tasks: [
+					{ type: "item" item: { id: "aether:eternal_fire_core" count: 1 }
+				]
+			}
+			{
+				id: "2B51AC12041E3F89"
+				title: "&e&lO Senhor das Chamas"
+				description: "Derrote o Senhor das Chamas para liberar o portal para o End."
+				rewards: [
+					{ type: "item" item: { id: "aether:flaming_sword" count: 1 } }
+					{ type: "item" item: { id: "minecraft:blaze_rod" count: 5 } }
+				]
+				tasks: [
+					{ type: "kill" entity: "aether:flame_lord" value: 1 }
+				]
+			}
+			{
+				id: "0D2F07FC0F804223"
+				title: "&e&lA Chama do Dragão"
+				description: "Derrote o Dragão do Fogo e pegue sua Escama de Chamas."
+				rewards: [
+					{ type: "item" item: { id: "minecraft:dragon_scale" count: 1 } },
+					{ type: "item" item: { id: "minecraft:blaze_rod" count: 5 } }
+				]
+				tasks: [
+					{ type: "kill" entity: "minecraft:ender_dragon" value: 1 }
+				]
+			}
+			{
+				id: "5900ADCC247CD5F8"
+				title: "&e&lO Portal para o End"
+				description: "Abra o portal para o End usando a Chave do End."
+				rewards: [
+					{ type: "item" item: { id: "minecraft:end_crystal" count: 1 } }
+				]
+				tasks: [
+					{ type: "item" item: "aether:end_key" }
+				]
+			}
+		]
+	}
+}

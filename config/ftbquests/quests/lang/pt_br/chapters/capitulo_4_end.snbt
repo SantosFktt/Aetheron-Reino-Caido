@@ -1,0 +1,115 @@
+{
+	chapter: {
+		id: "6614EE2378B8AFB9"
+		group: "AD6E5F4A6B7C8D9E"
+		icon: { id: "minecraft:end_crystal" }
+		title: "&9&lO Fim e Além"
+		description: "O reino final, onde estrelas nascem e morrem. Aqui está a fonte do mal."
+		start_quest: "2B51AC12041E3F89"
+		quests: [
+			{
+				id: "2B51AC12041E3F89"
+				title: "&e&lA Estrela Negra"
+				description: "Encontre a Estrela Negra no Centro do End e investigue."
+				rewards: [
+					{ type: "item" item: { id: "minecraft:end_crystal" count: 3 } }
+				]
+				tasks: [
+					{ type: "structure" structure: "aether:black_star" }
+				]
+			},
+			{
+				id: "0D2F07FC0F804223"
+				title: "&e&lO Guardião do Vazio"
+				description: "Derrote o Guardião do Vazio para revelar o verdadeiro vilão."
+				rewards: [
+					{ type: "item" item: { id: "minecraft:ender_eye" count: 1 } },
+					{ type: "item" item: { id: "minecraft:end_crystal" count: 5 } }
+				]
+				tasks: [
+					{ type: "kill" entity: "aether:void_guardian" value: 1 }
+				]
+			},
+			{
+				id: "5900ADCC247CD5F8"
+				title: "&e&lO Despertar do Rei Caído"
+				description: "Derrote o Rei Caído, o verdadeiro responsável pela queda de Aetheron."
+				rewards: [
+					{ type: "item" item: { id: "aether:fallen_king_crown" count: 1 } },
+					{ type: "item" item: { id: "minecraft:netherite_sword" count: 1 } },
+					{ type: "item" item: { id: "minecraft:netherite_helmet" count: 1 } },
+					{ type: "item" item: { id: "minecraft:netherite_chestplate" count: 1 } },
+					{ type: "item" item: { id: "minecraft:netherite_leggings" count: 1 } },
+					{ type: "item" item: { id: "minecraft:netherite_boots" count: 1 } }
+				]
+				tasks: [
+					{ type: "kill" entity: "aether:fallen_king" value: 1 }
+				]
+			},
+			{
+				id: "3DB036804AD70497"
+				title: "&e&lA Reconstrução"
+				description: "Após a batalha final, reconstrua Aetheron usando os fragmentos coletados."
+				rewards: [
+					{ type: "item" item: { id: "minecraft:beacon" count: 1 } },
+					{ type: "item" item: { id: "minecraft:end_rod" count: 4 } }
+				]
+				tasks: [
+					{ type: "item" item: { id: "aether:ambrosium_shard" count: 10 } }
+				]
+			}
+		]
+			{
+				id: "2B51AC12041E3F89"
+				title: "&e&lA Estrela Negra"
+				description: "Encontre a Estrela Negra no Centro do End e investigue."
+				rewards: [
+					{ type: "item" item: { id: "minecraft:end_crystal" count: 3 } }
+				]
+				tasks: [
+					{ type: "structure" structure: "aether:black_star" }
+				]
+			}
+			{
+				id: "0D2F07FC0F804223"
+				title: "&e&lO Guardião do Vazio"
+				description: "Derrote o Guardião do Vazio para revelar o verdadeiro vilão."
+				rewards: [
+					{ type: "item" item: { id: "minecraft:ender_eye" count: 1 } },
+					{ type: "item" item: { id: "minecraft:end_crystal" count: 5 } }
+				]
+				tasks: [
+					{ type: "kill" entity: "aether:void_guardian" value: 1 }
+				]
+			}
+			{
+				id: "5900ADCC247CD5F8"
+				title: "&e&lO Despertar do Rei Caído"
+				description: "Derrote o Rei Caído, o verdadeiro responsável pela queda de Aetheron."
+				rewards: [
+					{ type: "item" item: { id: "aether:fallen_king_crown" count: 1 } },
+					{ type: "item" item: { id: "minecraft:netherite_sword" count: 1 } },
+					{ type: "item" item: { id: "minecraft:netherite_helmet" count: 1 } },
+					{ type: "item" item: { id: "minecraft:netherite_chestplate" count: 1 } },
+					{ type: "item" item: { id: "minecraft:netherite_leggings" count: 1 } },
+					{ type: "item" item: { id: "minecraft:netherite_boots" count: 1 } }
+				]
+				tasks: [
+					{ type: "kill" entity: "aether:fallen_king" value: 1 }
+				]
+			}
+			{
+				id: "3DB036804AD70497"
+				title: "&e&lA Reconstrução"
+				description: "Após a batalha final, reconstrua Aetheron usando os fragmentos coletados."
+				rewards: [
+					{ type: "item" item: { id: "minecraft:beacon" count: 1 } },
+					{ type: "item" item: { id: "minecraft:end_rod" count: 4 } }
+				]
+				tasks: [
+					{ type: "item" item: { id: "aether:ambrosium_shard" count: 10 } }
+				]
+			}
+		]
+	}
+}

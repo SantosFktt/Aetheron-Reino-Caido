@@ -1,0 +1,39 @@
+{
+	chapter: {
+		id: "BE7F6A5B6C7D8E9F"
+		group: "BE7F6A5B6C7D8E9F"
+		icon: { id: "minecraft:diamond" }
+		title: "&2&lReconstrução e Legado"
+		description: "Reconstrua Aetheron e finalize sua jornada épica."
+		start_quest: "7A3B2C1D4E5F6A7B"
+		quests: [
+			{
+				id: "7A3B2C1D4E5F6A7B"
+				title: "&e&lO Fragmento Final"
+				description: "Reuna todos os 10 Fragmentos de Ambrésia para completar a reconstrução."
+				rewards: [
+					{ type: "item" item: { id: "minecraft:beacon" count: 1 } },
+					{ type: "item" item: { id: "minecraft:end_rod" count: 4 } },
+					{ type: "xp_levels" xp_levels: 10 }
+				]
+				tasks: [
+					{ type: "item" item: { id: "aether:ambrosium_shard" count: 10 } }
+				]
+			}
+		]
+			{
+				id: "7A3B2C1D4E5F6A7B"
+				title: "&e&lO Fragmento Final"
+				description: "Reuna todos os 10 Fragmentos de Ambrésia para completar a reconstrução."
+				rewards: [
+					{ type: "item" item: { id: "minecraft:beacon" count: 1 } },
+					{ type: "item" item: { id: "minecraft:end_rod" count: 4 } },
+					{ type: "xp_levels" xp_levels: 10 }
+				]
+				tasks: [
+					{ type: "item" item: { id: "aether:ambrosium_shard" count: 10 } }
+				]
+			}
+		]
+	}
+}

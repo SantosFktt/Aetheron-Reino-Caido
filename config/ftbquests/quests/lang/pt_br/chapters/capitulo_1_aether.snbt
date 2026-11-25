@@ -1,0 +1,114 @@
+{
+	chapter: {
+		id: "24151251C8730F2E"
+		group: "7A3B2C1D4E5F6A7B"
+		icon: { id: "minecraft:golden_helmet" }
+		title: "&6&lA Queda de Aetheron"
+		description: "O reino de Aetheron caiu. As estrelas estão apagadas e o céu chora. Sua jornada começa aqui."
+		start_quest: "24E124F12CFF2A50"
+	quest_group: "7A3B2C1D4E5F6A7B"
+		quests: [
+			{
+				id: "24E124F12CFF2A50"
+				title: "&e&lO Fragmento Perdido"
+				description: "Encontre o Fragmento de Ambrésia no Altar Antigo. Ele emite uma luz fraca mesmo na escuridão."
+				rewards: [
+					{ type: "item" item: { id: "aether:ambrosium_shard" count: 1 } }
+				]
+				tasks: [
+					{ type: "item" item: { id: "aether:ambrosium_shard" count: 1 } }
+				]
+			},
+			{
+				id: "5825892699A8DCB7"
+				title: "&e&lO Sinal do Reino"
+				description: "Fale com o Espírito do Sol no Pico da Montanha para receber a bênção do reino."
+				rewards: [
+					{ type: "item" item: { id: "minecraft:golden_apple" count: 5 } }
+				]
+				tasks: [
+					{ type: "structure" structure: "aether:altar" }
+				]
+			},
+			{
+				id: "5900ADCC247CD5F8"
+				title: "&e&lA Espada Sagrada"
+				description: "Derrote a Rainha Valquíria e reivindique sua Espada de Ouro."
+				rewards: [
+					{ type: "item" item: { id: "aether:valkyrie_helmet" count: 1 } },
+					{ type: "item" item: { id: "aether:valkyrie_chestplate" count: 1 } },
+					{ type: "item" item: { id: "aether:valkyrie_leggings" count: 1 } },
+					{ type: "item" item: { id: "aether:valkyrie_boots" count: 1 } }
+				]
+				tasks: [
+					{ type: "kill" entity: "aether:valkyrie_queen" value: 1 }
+				]
+			},
+			{
+				id: "0D2F07FC0F804223"
+				title: "&e&lO Despertar do Espírito"
+				description: "Derrote o Espírito do Sol após congelá-lo com Cristais de Gelo."
+				rewards: [
+					{ type: "item" item: { id: "aether:phoenix_helmet" count: 1 } },
+					{ type: "item" item: { id: "aether:phoenix_chestplate" count: 1 } },
+					{ type: "item" item: { id: "aether:phoenix_leggings" count: 1 } },
+					{ type: "item" item: { id: "aether:phoenix_boots" count: 1 } }
+				]
+				tasks: [
+					{ type: "kill" entity: "aether:sun_spirit" value: 1 }
+				]
+			}
+		]
+			{
+				id: "24E124F12CFF2A50"
+				title: "&e&lO Fragmento Perdido"
+				description: "Encontre o Fragmento de Ambrésia no Altar Antigo. Ele emite uma luz fraca mesmo na escuridão."
+				rewards: [
+					{ type: "item" item: { id: "aether:ambrosium_shard" count: 1 } }
+				]
+				tasks: [
+					{ type: "item" item: { id: "aether:ambrosium_shard" count: 1 } }
+				]
+			}
+			{
+				id: "5825892699A8DCB7"
+				title: "&e&lO Sinal do Reino"
+				description: "Fale com o Espírito do Sol no Pico da Montanha para receber a bênção do reino."
+				rewards: [
+					{ type: "item" item: { id: "minecraft:golden_apple" count: 5 } }
+				]
+				tasks: [
+					{ type: "structure" structure: "aether:altar" }
+				]
+			}
+			{
+				id: "5900ADCC247CD5F8"
+				title: "&e&lA Espada Sagrada"
+				description: "Derrote a Rainha Valquíria e reivindique sua Espada de Ouro."
+				rewards: [
+					{ type: "item" item: { id: "aether:valkyrie_helmet" count: 1 } },
+					{ type: "item" item: { id: "aether:valkyrie_chestplate" count: 1 } },
+					{ type: "item" item: { id: "aether:valkyrie_leggings" count: 1 } },
+					{ type: "item" item: { id: "aether:valkyrie_boots" count: 1 } }
+				]
+				tasks: [
+					{ type: "kill" entity: "aether:valkyrie_queen" value: 1 }
+				]
+			}
+			{
+				id: "0D2F07FC0F804223"
+				title: "&e&lO Despertar do Espírito"
+				description: "Derrote o Espírito do Sol após congelá-lo com Cristais de Gelo."
+				rewards: [
+					{ type: "item" item: { id: "aether:phoenix_helmet" count: 1 } },
+					{ type: "item" item: { id: "aether:phoenix_chestplate" count: 1 } },
+					{ type: "item" item: { id: "aether:phoenix_leggings" count: 1 } },
+					{ type: "item" item: { id: "aether:phoenix_boots" count: 1 } }
+				]
+				tasks: [
+					{ type: "kill" entity: "aether:sun_spirit" value: 1 }
+				]
+			}
+		]
+	}
+}

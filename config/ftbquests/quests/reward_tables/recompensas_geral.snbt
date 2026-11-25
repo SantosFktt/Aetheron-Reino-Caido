@@ -1,0 +1,60 @@
+{
+	reward_tables: [
+		{
+			id: "24E124F12CFF2A50"
+			rewards: [
+				{ type: "item" item: { id: "aether:ambrosium_shard" count: 1 } },
+				{ type: "xp_levels" xp_levels: 5 }
+			]
+		}
+		{
+			id: "5825892699A8DCB7"
+			rewards: [
+				{ type: "item" item: { id: "minecraft:golden_apple" count: 5 } },
+				{ type: "xp_levels" xp_levels: 10 }
+			]
+		}
+		{
+			id: "5900ADCC247CD5F8"
+			rewards: [
+				{ type: "item" item: { id: "minecraft:golden_apple" count: 5 } },
+				{ type: "xp_levels" xp_levels: 15 }
+			]
+		}
+		{
+			id: "3D4E23B1100491AB"
+			rewards: [
+				{ type: "item" item: { id: "aether:angelic_stone" count: 1 } },
+				{ type: "xp_levels" xp_levels: 20 }
+			]
+		}
+		{
+			id: "6614EE2378B8AFB9"
+			rewards: [
+				{ type: "item" item: { id: "minecraft:blaze_rod" count: 5 } },
+				{ type: "xp_levels" xp_levels: 25 }
+			]
+		}
+		{
+			id: "2B51AC12041E3F89"
+			rewards: [
+				{ type: "item" item: { id: "minecraft:ender_eye" count: 1 } },
+				{ type: "xp_levels" xp_levels: 30 }
+			]
+		}
+		{
+			id: "0D2F07FC0F804223"
+			rewards: [
+				{ type: "item" item: { id: "minecraft:beacon" count: 1 } },
+				{ type: "xp_levels" xp_levels: 35 }
+			]
+		}
+		{
+			id: "3DB036804AD70497"
+			rewards: [
+				{ type: "item" item: { id: "minecraft:beacon" count: 1 } },
+				{ type: "xp_levels" xp_levels: 40 }
+			]
+		}
+	]
+}
