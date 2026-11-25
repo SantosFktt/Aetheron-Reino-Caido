@@ -876,21 +876,6 @@
       "fileSize": 62031
     },
     {
-      "path": "mods/reeses-sodium-options-neoforge-2.2.7-beta.1+mc1.21.1.jar",
-      "hashes": {
-        "sha1": "09b54af7dfb6d55b0565243aedd9bed7e800fd25",
-        "sha512": "837ba3a68528195e6442431e38b692f1c2151b3fb97009af1854773d947c9aee0579b989bcd5171e43e1a8ad742b5c4c6ce9ba1dbf12710929a98ddb7bd0e9d4"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/Bh37bMuy/versions/x1qZNOsZ/reeses-sodium-options-neoforge-2.2.7-beta.1%2Bmc1.21.1.jar"
-      ],
-      "fileSize": 266747
-    },
-    {
       "path": "mods/relics-1.21.1-0.12.11.jar",
       "hashes": {
         "sha1": "2a21b9d771375f8dca1dd43cc78f9ce05f804461",
@@ -964,36 +949,6 @@
         "https://cdn.modrinth.com/data/9eGKb6K1/versions/iR08ksVF/voicechat-neoforge-1.21.1-2.6.27.jar"
       ],
       "fileSize": 4936802
-    },
-    {
-      "path": "mods/sodiumdynamiclights-neoforge-1.0.10-1.21.1.jar",
-      "hashes": {
-        "sha1": "02e9bc7ba28147cdf2d608ecf4f2c1eab34b4652",
-        "sha512": "ec19a81cf2dfde255990a457d8f6d7375df53cb94190dce71c4bfe5d5263f4862027ce4aa0af20cb11d56c7c031d5e149b3bdf95bec6343e5bd4552450b14c0a"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/PxQSWIcD/versions/XI0WLXdn/sodiumdynamiclights-neoforge-1.0.10-1.21.1.jar"
-      ],
-      "fileSize": 299353
-    },
-    {
-      "path": "mods/sodiumoptionsapi-neoforge-1.0.10-1.21.1.jar",
-      "hashes": {
-        "sha1": "5d014d031fa77ab600e07835b032ef4dcb79b442",
-        "sha512": "f2f022183f300961d7d0503461daa59e3e606c32f189f1cb3307edaf765986c541929205b7bf6f40c4c88319696e9d863c1bf711bd441dc9b7081c198ddb445b"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/Es5v4eyq/versions/lrsX3TMS/sodiumoptionsapi-neoforge-1.0.10-1.21.1.jar"
-      ],
-      "fileSize": 309122
     },
     {
       "path": "mods/sodium-neoforge-0.8.14-beta.1+mc1.21.1.jar",

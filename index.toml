@@ -72,6 +72,11 @@ hash = "416b7f130791397fb2ceb9e89ce3fd0e870f207c8e40b759c069cb58b7544314"
 metafile = true
 
 [[files]]
+file = "mods/atlas-api.pw.toml"
+hash = "4d611e688a4c09c69c90b5070e54e9dc13510d26e156b8bd12907ccd10048537"
+metafile = true
+
+[[files]]
 file = "mods/balm.pw.toml"
 hash = "fc8954e0d3fa66b917d2c84ee04d07b073a9eb6f719d09e1ff85527c1d61a10e"
 metafile = true
@@ -154,11 +159,6 @@ metafile = true
 [[files]]
 file = "mods/easy-npc.pw.toml"
 hash = "7479999fea2b7ff15ccec699d6c0158a4a89cc27ce748b58fe68e06944d6da93"
-metafile = true
-
-[[files]]
-file = "mods/easynpc-x-ftb-quests-compat.pw.toml"
-hash = "97aa4d9afacc557538f09e0319418a44b3c98f4d5ea653136421afc28d2abb94"
 metafile = true
 
 [[files]]
