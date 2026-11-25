@@ -111,6 +111,21 @@
       "fileSize": 1086922
     },
     {
+      "path": "mods/atlas_api-1.21.1-1.2.0.jar",
+      "hashes": {
+        "sha1": "79487e97bd6dbbd6cfbdbcd4fbf1a7ac34fb8998",
+        "sha512": "90a9946a544bf97932bb48bc1cc757ad698b71008da780ee0113a1896c19cb2811d0fb705756c8df5d8a792f31ba97f00e3988ac04bb71c70b8837a0baa275a3"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/7e9kzq9t/versions/IkS0pyUg/atlas_api-1.21.1-1.2.0.jar"
+      ],
+      "fileSize": 28419
+    },
+    {
       "path": "mods/balm-neoforge-1.21.1-21.0.67.jar",
       "hashes": {
         "sha1": "68c95ca8a6a87d26199d43ff6978bc94949329e3",
@@ -364,21 +379,6 @@
         "https://cdn.modrinth.com/data/CgGEe1h3/versions/U8PAARpi/easy_npc_bundle-neoforge-1.21.1-7.21.0.jar"
       ],
       "fileSize": 25222
-    },
-    {
-      "path": "mods/easynpc-x-ftb-quests-compat-neoforge-1.21.1-1.0.2.jar",
-      "hashes": {
-        "sha1": "69fe2579d89aa30e279d6d57f6cdb466bab5568e",
-        "sha512": "e7221b18d16521681290f6ed4a9f81d51e23a810824a99ab4eca01eca3d467396a1ce0a814507e10359fac727367cdd896442bd120a45dbecabe5b783b6d1e0b"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/tJfPbrsT/versions/F648jfNJ/easynpc-x-ftb-quests-compat-neoforge-1.21.1-1.0.2.jar"
-      ],
-      "fileSize": 65757
     },
     {
       "path": "mods/entityculling-neoforge-1.12.2-mc1.21.1.jar",
@@ -874,6 +874,21 @@
         "https://cdn.modrinth.com/data/1OE8wbN0/versions/kMcz2lDj/Prism-1.21.1-neoforge-1.0.11.jar"
       ],
       "fileSize": 62031
+    },
+    {
+      "path": "mods/reeses-sodium-options-neoforge-2.2.7-beta.1+mc1.21.1.jar",
+      "hashes": {
+        "sha1": "09b54af7dfb6d55b0565243aedd9bed7e800fd25",
+        "sha512": "837ba3a68528195e6442431e38b692f1c2151b3fb97009af1854773d947c9aee0579b989bcd5171e43e1a8ad742b5c4c6ce9ba1dbf12710929a98ddb7bd0e9d4"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/Bh37bMuy/versions/x1qZNOsZ/reeses-sodium-options-neoforge-2.2.7-beta.1%2Bmc1.21.1.jar"
+      ],
+      "fileSize": 266747
     },
     {
       "path": "mods/relics-1.21.1-0.12.11.jar",
